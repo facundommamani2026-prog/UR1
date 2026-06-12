@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>34°.kml</name>
+	<StyleMap id="poly-A52714-2000-76">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#poly-A52714-2000-76-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#poly-A52714-2000-76-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="poly-A52714-2000-76-highlight">
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>4c1427a5</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="poly-A52714-2000-76-normal">
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>4c1427a5</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>34°</name>
+		<description><![CDATA[34°    <br>       <br>   FID   9    <br>   JURISDICCI   34°    <br>   AREA   7814711,957    <br>   PERIMETER   15939,417]]></description>
+		<styleUrl>#poly-A52714-2000-76</styleUrl>
+		<gx:balloonVisibility>1</gx:balloonVisibility>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-65.37401300000001,-24.165764,0 -65.376623,-24.163436,0 -65.381117,-24.160524,0 -65.385648,-24.156896,0 -65.40865100000001,-24.168566,0 -65.43384500000001,-24.180851,0 -65.457037,-24.180102,0 -65.45808100000001,-24.186227,0 -65.44075599999999,-24.191881,0 -65.432199,-24.190348,0 -65.426689,-24.18479,0 -65.40635,-24.176634,0 -65.391756,-24.177732,0 -65.385406,-24.176088,0 -65.37401300000001,-24.165764,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+		<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.7.1155"></atom:link>
+	</Placemark>
+</Document>
+</kml>

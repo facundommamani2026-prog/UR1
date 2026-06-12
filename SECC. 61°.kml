@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>SECC. 61°.kml</name>
+	<StyleMap id="poly-F9A825-2000-120-nodesc">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#poly-F9A825-2000-120-nodesc-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#poly-F9A825-2000-120-nodesc-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="poly-F9A825-2000-120-nodesc-highlight">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>7825a8f9</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="poly-F9A825-2000-120-nodesc-normal">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>7825a8f9</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>SECC. 61°</name>
+		<styleUrl>#poly-F9A825-2000-120-nodesc</styleUrl>
+		<gx:balloonVisibility>1</gx:balloonVisibility>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-65.298762,-24.183554,0 -65.29708100000001,-24.184233,0 -65.294608,-24.185095,0 -65.293047,-24.186374,0 -65.29272400000001,-24.18701799999999,0 -65.292407,-24.187673,0 -65.29226,-24.188454,0 -65.292479,-24.189119,0 -65.292846,-24.190188,0 -65.29176,-24.190099,0 -65.29025,-24.189643,0 -65.288759,-24.18881,0 -65.287302,-24.188023,0 -65.285698,-24.18682,0 -65.291957,-24.182907,0 -65.299981,-24.179274,0 -65.301591,-24.182383,0 -65.298762,-24.183554,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+		<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.7.1155"></atom:link>
+	</Placemark>
+</Document>
+</kml>

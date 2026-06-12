@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>SECC. 55°.kml</name>
+	<StyleMap id="poly-0F9D58-2000-107-nodesc">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#poly-0F9D58-2000-107-nodesc-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#poly-0F9D58-2000-107-nodesc-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="poly-0F9D58-2000-107-nodesc-highlight">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>6b589d0f</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="poly-0F9D58-2000-107-nodesc-normal">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>6b589d0f</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>SECC. 55°</name>
+		<styleUrl>#poly-0F9D58-2000-107-nodesc</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-65.30585000000001,-24.165158,0 -65.311705,-24.164134,0 -65.327392,-24.161359,0 -65.32710299999999,-24.159634,0 -65.33197699999999,-24.158766,0 -65.332506,-24.16051,0 -65.351176,-24.156822,0 -65.353444,-24.161812,0 -65.347228,-24.163064,0 -65.348759,-24.168278,0 -65.329911,-24.172768,0 -65.329981,-24.173772,0 -65.320882,-24.175476,0 -65.32027600000001,-24.173812,0 -65.313901,-24.172999,0 -65.31139,-24.173467,0 -65.30792099999999,-24.174662,0 -65.30585000000001,-24.165158,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+		<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.7.1155"></atom:link>
+	</Placemark>
+</Document>
+</kml>

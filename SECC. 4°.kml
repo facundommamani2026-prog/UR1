@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>SECC. 4°.kml</name>
+	<StyleMap id="poly-0288D1-2000-87-nodesc">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#poly-0288D1-2000-87-nodesc-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#poly-0288D1-2000-87-nodesc-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="poly-0288D1-2000-87-nodesc-highlight">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>57d18802</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="poly-0288D1-2000-87-nodesc-normal">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>57d18802</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>SECC. 4°</name>
+		<styleUrl>#poly-0288D1-2000-87-nodesc</styleUrl>
+		<gx:balloonVisibility>1</gx:balloonVisibility>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-65.302397,-24.19332,0 -65.302617,-24.189631,0 -65.305702,-24.189589,0 -65.307783,-24.189531,0 -65.31057199999999,-24.189839,0 -65.31511999999999,-24.189967,0 -65.324066,-24.192258,0 -65.334924,-24.197624,0 -65.33299700000001,-24.200757,0 -65.33246699999999,-24.206998,0 -65.32990700000001,-24.207495,0 -65.329939,-24.201125,0 -65.324729,-24.19794,0 -65.323341,-24.198725,0 -65.320606,-24.197326,0 -65.320508,-24.200226,0 -65.319441,-24.200865,0 -65.318394,-24.200061,0 -65.31623999999999,-24.201147,0 -65.31627,-24.202527,0 -65.314831,-24.20363,0 -65.313986,-24.204135,0 -65.312928,-24.200809,0 -65.310029,-24.200018,0 -65.30820199999999,-24.191748,0 -65.305413,-24.192102,0 -65.303783,-24.192668,0 -65.302397,-24.19332,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+		<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.7.1155"></atom:link>
+	</Placemark>
+</Document>
+</kml>

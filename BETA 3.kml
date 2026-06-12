@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>BETA 3.kml</name>
+	<StyleMap id="poly-E65100-2000-94-nodesc">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#poly-E65100-2000-94-nodesc-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#poly-E65100-2000-94-nodesc-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="poly-E65100-2000-94-nodesc-highlight">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>5e0051e6</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="poly-E65100-2000-94-nodesc-normal">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>5e0051e6</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>BETA 3</name>
+		<styleUrl>#poly-E65100-2000-94-nodesc</styleUrl>
+		<gx:balloonVisibility>1</gx:balloonVisibility>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-65.282569,-24.188914,0 -65.28522,-24.190804,0 -65.283787,-24.19213999999999,0 -65.283868,-24.192222,0 -65.283479,-24.192969,0 -65.28362,-24.193104,0 -65.283484,-24.193443,0 -65.284283,-24.193867,0 -65.282966,-24.19587,0 -65.281678,-24.197025,0 -65.28001500000001,-24.198463,0 -65.27461099999999,-24.207916,0 -65.265119,-24.199223,0 -65.266662,-24.197121,0 -65.26939400000001,-24.195038,0 -65.276257,-24.190802,0 -65.278087,-24.19011,0 -65.27932699999999,-24.189973,0 -65.282569,-24.188914,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+		<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.7.1155"></atom:link>
+	</Placemark>
+</Document>
+</kml>

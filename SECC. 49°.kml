@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>49°.kml</name>
+	<StyleMap id="poly-F9A825-2000-120-nodesc">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#poly-F9A825-2000-120-nodesc-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#poly-F9A825-2000-120-nodesc-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="poly-F9A825-2000-120-nodesc-highlight">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>7825a8f9</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="poly-F9A825-2000-120-nodesc-normal">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>7825a8f9</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>49°</name>
+		<description><![CDATA[49°    <br>       <br>   FID   5    <br>   JURISDICCI   49°    <br>   AREA   8505609,87    <br>   PERIMETER   16043,906]]></description>
+		<styleUrl>#poly-F9A825-2000-120-nodesc</styleUrl>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-65.339095,-24.158106,0 -65.33883899999999,-24.15814900000001,0 -65.339007,-24.158073,0 -65.339095,-24.158106,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-65.32799420000001,-24.1768229,0 -65.32760089999999,-24.1746192,0 -65.3303658,-24.1738283,0 -65.33016929999999,-24.1729003,0 -65.34902339999999,-24.1684398,0 -65.347464,-24.1631815,0 -65.350385,-24.1626197,0 -65.3535298,-24.1619686,0 -65.35464,-24.160601,0 -65.362033,-24.157248,0 -65.37299299999999,-24.155653,0 -65.37309500000001,-24.155793,0 -65.37610100000001,-24.15987000000001,0 -65.38179599999999,-24.160493,0 -65.377302,-24.163405,0 -65.374692,-24.165732,0 -65.37047200000001,-24.168358,0 -65.364406,-24.174485,0 -65.357348,-24.177839,0 -65.350863,-24.178848,0 -65.347166,-24.179949,0 -65.34520999999999,-24.180948,0 -65.34336,-24.181797,0 -65.34144499999999,-24.182708,0 -65.34022,-24.182996,0 -65.3346538,-24.1854837,0 -65.3291296,-24.1796004,0 -65.3287346,-24.1792707,0 -65.32842410000001,-24.1778424,0 -65.3280113,-24.1776064,0 -65.32799420000001,-24.1768229,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+		<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.7.1155"></atom:link>
+	</Placemark>
+</Document>
+</kml>

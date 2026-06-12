@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>SECC. 32°.kml</name>
+	<StyleMap id="poly-E65100-2000-94-nodesc">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#poly-E65100-2000-94-nodesc-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#poly-E65100-2000-94-nodesc-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="poly-E65100-2000-94-nodesc-highlight">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>5e0051e6</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="poly-E65100-2000-94-nodesc-normal">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>5e0051e6</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>SECC. 32°</name>
+		<styleUrl>#poly-E65100-2000-94-nodesc</styleUrl>
+		<gx:balloonVisibility>1</gx:balloonVisibility>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-65.27952000000001,-24.214442,0 -65.277973,-24.215439,0 -65.27669400000001,-24.217868,0 -65.272944,-24.217975,0 -65.269415,-24.218212,0 -65.26374,-24.219579,0 -65.25869400000001,-24.220903,0 -65.251639,-24.215502,0 -65.25388700000001,-24.212378,0 -65.25701599999999,-24.209083,0 -65.258742,-24.207138,0 -65.258447,-24.206983,0 -65.25842799999999,-24.206391,0 -65.26040500000001,-24.205161,0 -65.263087,-24.202433,0 -65.26511600000001,-24.199226,0 -65.274452,-24.207765,0 -65.280208,-24.213444,0 -65.27952000000001,-24.214442,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+		<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.7.1155"></atom:link>
+	</Placemark>
+</Document>
+</kml>

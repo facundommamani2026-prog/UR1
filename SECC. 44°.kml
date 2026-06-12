@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>SECC. 44°.kml</name>
+	<StyleMap id="poly-F9A825-2000-120-nodesc">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#poly-F9A825-2000-120-nodesc-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#poly-F9A825-2000-120-nodesc-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="poly-F9A825-2000-120-nodesc-highlight">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>7825a8f9</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="poly-F9A825-2000-120-nodesc-normal">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>7825a8f9</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>SECC. 44°</name>
+		<styleUrl>#poly-F9A825-2000-120-nodesc</styleUrl>
+		<gx:balloonVisibility>1</gx:balloonVisibility>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-65.306248,-24.176895,0 -65.30944,-24.176276,0 -65.31813,-24.175846,0 -65.322535,-24.177401,0 -65.323885,-24.177366,0 -65.32472799999999,-24.17748,0 -65.32484100000001,-24.177937,0 -65.328379,-24.177919,0 -65.32848300000001,-24.178483,0 -65.324167,-24.179153,0 -65.321229,-24.179349,0 -65.31191099999999,-24.179964,0 -65.30886599999999,-24.1804,0 -65.303123,-24.181757,0 -65.301624,-24.182382,0 -65.299972,-24.179277,0 -65.306248,-24.176895,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+		<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.7.1155"></atom:link>
+	</Placemark>
+</Document>
+</kml>
